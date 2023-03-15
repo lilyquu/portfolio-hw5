@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Lily Qu's portfolio for CSE 134B" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="Yuxiao(Lily) Qu" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coder Page</title>
+	<!-- <link href="images/favicon.ico" rel="icon" /> -->
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' />
+	<link href="styles/main.css" rel="stylesheet" />
+</head>
+
+<body class="coder">
+	<header>
+		<a href="index.html" id="Q">Q.</a>
+        <nav class="nav-bar">
+            <a href="coder.html" class="select-nav">&nbsp Coder &nbsp</a>
+            <a href="designer.html" class="unselect-nav">Designer</a>
+            <a href="artist.html" class="unselect-nav"> &ensp;Artist&ensp; </a>
+        </nav>
+        <!-- <button onclick="document.location='resume.html'">RESUME</button> -->
+		<button class="resume-btn">RESUME</button>
+	</header>
+
+	<main>
+                
+        <section class="main-page">
+            <!-- <aside>Scroll Down<img src="./images/placeholder.png" id="scroll-down"/></aside> -->
+            <picture>
+				<source
+				   srcset="./images/coder-Small.png 400w,
+				           ./images/coder-Medium.png 800w,
+						   ./images/coder-Large.png 1200w"
+				   sizes="(min-width: 1280px) 1200px,
+						  (min-width: 768px) 400px,
+						  100vw">
+                <img src="./images/coder-Large.png" class="my-pic" alt="my-pic"/>
+			</picture>
+            <h1 id="hello" class="main-page-text"><b>Hello.</b></h1>
+            <h2 id="i-am" class="main-page-text">I am <b>Lily Qu,</b></h2>
+            <h2 id="know-me" class="main-page-text">know me </h2>
+            <h2 id="as-a" class="main-page-text">as a <b>Coder</b></h2>
+        </section>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+		<section id="projects-page">
+            <div class="project">
+                <h3><b>Sus Job Traking</b><br>Team Project<br>Cse 110</h3>
+                <iframe src="https://cse110-fa22-group23.github.io/cse110-fa22-group23/" title="Project" width="60%"></iframe>
+                <p>We created a job traking website.</p>
+            </div>
+            <hr>
+            <div class="project">
+                <h3><b>OpenGl Project</b><br>Project<br>Math 155</h3>
+                <img src="./images/155.png" id="project2" width="60%">
+                <p>I use OpenGl created a 3-D museum.</p>
+            </div>
+            <hr>
+            <div class="project">
+                <h3><b>Games</b><br>Project<br>Individual</h3>
+                <video width="90%" controls>
+                    <source src="./videos/Caty Ball.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <video width="70%" controls>
+                    <source src="./videos/Hungry Snake.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <video width="90%" controls>
+                    <source src="./videos/jump jump 2.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <p>I created 3 small games from skratch, designed all visual elements.</p>
+            </div>
+		</section>
+
+	</main>
+
+	<footer id="footer">
+		<p class="copy-right">Copyrights @ 2023 Yuxiao(Lily) Qu</p>
+	</footer>
+
+</body>
+
+</html>

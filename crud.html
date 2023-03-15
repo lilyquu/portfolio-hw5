@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Lily Qu's portfolio for CSE 134B" />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="Yuxiao(Lily) Qu" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Home Page</title>
+	<!-- <link href="images/favicon.ico" rel="icon" /> -->
+	<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' />
+	<link href="styles/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <p>Blog</p>
+
+    <button id="createbtn">create new post</button>
+
+    <dialog id="createDialog">
+        <form method="dialog">
+            <p>Post Title:</p>
+            <input id="titleinput" type="text">
+            <br>
+            <br>
+            <p>Post Date:</p>
+            <input id="dateinput" type="text">
+            <br>
+            <br>
+            <p>Post Summary:</p>
+            <input id="summaryinput" type="text">
+            <br>
+            <br>
+            <button id="btncancel" value="user cancel the post creation">Cancel</button>
+            <button id="btncreate" value="default">Create</button>
+        </form>
+    </dialog>
+
+    <template id="realpost">
+        <p id="realtitle">Title</p>
+        <p id="realdate">Date</p>
+        <p id="realsummary">Summary</p>
+        <button id="btnedit" value="edit">Edit</button>
+        <button id="btndelete" value="delete">Delete</button>
+        <br>
+    </template>
+
+  </main>
+</body>
+
+<script src="./scripts/blog.js" type="module"></script>
+</html>
