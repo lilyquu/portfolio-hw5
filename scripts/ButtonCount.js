@@ -11,7 +11,7 @@ class MyButton extends HTMLElement {
         template.innerHTML = `
           <style>
             button{
-                margin-top: 13vh;
+                margin-top: 30vh;
             }
           </style>
           <button><slot></slot></button>
