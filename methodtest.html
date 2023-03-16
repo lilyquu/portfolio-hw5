@@ -11,6 +11,7 @@
 	<!-- <link href="images/favicon.ico" rel="icon" /> -->
 	<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' />
 	<link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/hw5.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -20,22 +21,39 @@
             <a href="coder.html" class="unselect-nav">&nbsp Coder &nbsp</a>
             <a href="designer.html" class="unselect-nav">Designer</a>
             <a href="artist.html" class="unselect-nav"> &ensp;Artist&ensp; </a>
-			<a href="methodtest.html" class="unselect-nav">Method Test</a>
+            <a href="methodtest.html" class="unselect-nav">Method Test</a>
         </nav>
         <!-- <button onclick="document.location='resume.html'">RESUME</button> -->
-		<button class="resume-btn">RESUME</button>
 	</header>
 
 	<main>
 
-        <section id="main-page">
-            <h1 id="hello" class="main-page-text"><b>Hello.</b></h1>
-            <h2 id="i-am" >I am <b>Lily Qu,</b></h2>
-            <p>I am a 3rd year undergarduate student at UCSD,<br>
-				my major is math-cs joint major,<br>
-				my minor is studio art.</p>
+        <form id="methodtest-form">
+            <lable for="id-num">ID:</lable><br>
+            <input type="number" id="id-num" name="id-num"><br>
+            <lable for="article-name">Article Name:</lable><br>
+            <input type="text" id="article-name" name="article-name"><br>
+            <lable for="article-body">Article Body:</lable><br>
+            <textarea id="article-body" name="article-body"></textarea><br>
+            <script>
+                new Date()
+            </script>
+        </form>
+
+        <section id="methodtest-btn">
+            <button id="postBtn">Post</button>
+            <button id="getBtn">Get</button>
+            <button id="putBtn">Put</button>
+            <button id="deleteBtn">Delete</button>
         </section>
-		
+
+        <br>
+
+        <pre>
+            <output id="respond"></output>
+        </pre>
+        <table id="datatable"></table>
+
 	</main>
 
 	<footer id="footer">
@@ -43,5 +61,5 @@
 	</footer>
 
 </body>
-
+<script src="./scripts/methodtest.js"></script>
 </html>
