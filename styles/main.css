@@ -30,6 +30,7 @@ body.artist{
 }
 
 .nav-bar{
+    font-size: 40%;
     position:fixed;
     display:flex;
     top: 2vw;
@@ -37,7 +38,7 @@ body.artist{
     flex-basis: content;
     align-items: center;
     justify-content: space-evenly;
-    gap: 2.2vw;
+    gap: 0.5vw;
     z-index: 10;
     background-color: var(--white);
 }
